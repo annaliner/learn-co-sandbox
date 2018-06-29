@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<title>it's a <i>look</i> quiz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://lh3.googleusercontent.com/6OKuvy1bujMQKz5JGcYR1mStc1Ab4eoXCKchTlabN9CwsUdzu0Rn134aW_NNdVGxQPb91MQbY1UIdrzamgwvS1LkNNZ8N8G-fr1A7kO4OcxOk1U_Fq6udpde8WVBtwlejrV62x7r0_Oj7wY7CjssLDGQxVVHTy-KRulj8AvboWSaysZrJjkiA_FkjIW_qD_1lMLzbInuiISXdKQr30saPjKGKqmkEe7aXhXiFxgx_K8Ro00TmrHsyAhyDhXVG6bHU8QmbOC1TJKlZKYEz7pIOryNP610ekAB4PLsE6mGkDtexUpP__OgT9Och14bgjo9Qgc2bCOkMMjdfyZ7P0P3RaLVoMR52SrxEyL1-ARPSrIKoncQOtsQleoy8p_C-5Y6ugiKxEGyjUYrqfl6SxElR4ZftsYBPyqs6aLVzLXIAVX396GwVfWS_XL9ohAzdM4AmrcPsu__anei-akBCie4a1nOiar8JQCVMlUcsfNV99fDPGZm7tL2W4si88Kih9itX3kQIUj-Qjfl0XEpuHIwZVQvmhQgqA9YymNaldAgSFJXyFT3JieO_dPuYd9l8BwXoLOoBEN1XFzh89xXnG-ew-AeU9Zs4fTajoIH6tU=s250-k-rw-no');
+    min-height: 120%;
+}
+</style>
+<body>
+    
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+ <body>
+    <div class="container">
+      <h1 class="header">Here's what we reccomend:
+      
+     <h4>You should wear cool tones for your makeup! Cool tones will compliment your skin type well and bring out your creativity. These colors will not only match your features, but will also make your eyes and personality pop! </h4>
+      
+        <img class="img" alt= "centered image" src="https://lh3.googleusercontent.com/HN1GUCO5paN_Xz_ABvHeSPEasoEg8hMteExuzYV1Sjt36SuWPtsf1bKIk4oHvFT_YBdYwoJGlKb-fM7SORCiKUamjFLUIW4PNc3I2EDG3Hbs2erE2VEw3ZzYpUB_yQNh2ruRZ70vQL7D9nzdEAUabJSMBPVPAW_3_Tofk3kt499BfckgStxvtbu8Co_0QCQOh-mUmY0263SzWDtQKRO_KpalHwLYq9f7Z1aNNivsRltcBrM85IDXiljhskazBbWe5zWvqE1qIm1MCM6vsfhOS2znEm1DzPlctco9wK_2_4DrV3NWVmd8hEjJ744P3VXG5MAxS3rViLlk8vugwKPlxp7bcXE477un5_xuOvC_ae73pxB0d10oigHGISAHTLuzRtgu1_dZu8sXAc3tEdimcC5_JCQtHw7PHQelLLP4EpkKhgM-ga8kctX3p4oFrV9TZ87HrLxvxbN6oWXV_aEGfhcFxBI4xVbVBWrxbswiszVXGcxKlzM_LM6-pbafXglyb94j5CFKSGNu7kSwi2lpSe2JRntT-h8K9aTLCj2FNG_AsIEJhUlcbZ9knHdGKgKQw7RL80tEqIGFin5wKUIFlp8Niw3N0e4FALFwlg=w927-h651-no" width="500" height="350"></img> 
+        
+        <br>
+        
+        <h4>You should wear your hair up! There's plenty of fun ways to clip, tie, or braid your hair to show off your individuality. Here's some ideas:</h4>
+        <img class="img" alt= "centered image" src="https://lh3.googleusercontent.com/pduyPype-7otu-pwIIwNiMXMRpAJwYgkKlMEmOC9wD5sit-ZPtp14UvuDAS4cGjyJzthPZj6VCT4PHFJCo8TigbaQxIhL3SyH2pqJEjMax_AfCDREQIviVJ1YVrQWZWodHdI6T3KvCpIPhdGn3PIwQukRFjzJOif9-v7rBRdS5s31N6ZLIIFPPllUEOiOESO5DaMR2-z7aIYEnx61UIMH4aU6BVaQD0lhtDbtKiQlBRv_BIeN2LPVhZgap2_0AobsJgpUlkTc_SBQ3mRKFLzRgM-ECw-l_EAiArhyIFfgz_V5xR_VpwWDerRFfJDuQ-2e6aEUi1CgrokN8USutwm7SLcc9PKKl6nliRCiUt_23dSNLSN1b0JYvHE_ZvcyKHxjx_R5FRAgWsKudZFbqfSgRS6TXs9x2bCOIhfrRvf-tKTzukAY_eKCyCoqy4j6Dx53ZozxX01Eg3WtyvGSRmmficidjSVMPshrDjqhcGdAWy6yt2nwK6wM7occeTTUhHkmWFBWO944cAqUWc8nYnnhrRMEg2mkgQR9jEdBKyUgXt_J4cFPBZV2yQPFYDXPPaxGLCB7qgkUk8YXPlSioAMbSkXDswpytx9aHK1Ag=w997-h700-no" width="500" height="350"></img>
+        
+        
+        
+        </h1>
+        
+
+        <!-- <h2> How experienced are you with baking?</h2>
+<br> -->
+
+          <!-- <input type="radio" name="skill" value="A" >I'm an expert
+        <input type="radio" name="skill" value="B"> I've baked a bit <br>
+          <input type="radio" name="skill" value="C">I've never baked anything really
+            <br> -->
+            <br>
+         
+      </form>
+    </div>
+  </div>
+
+ 
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    </b>
+    <p></p>
+ 
+  </header>
+
+ 
+    
+
+
+    
+   
+   
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
